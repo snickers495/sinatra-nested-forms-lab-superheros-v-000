@@ -7,7 +7,7 @@ class App < Sinatra::Base
       erb :'app/views/super_hero'
     end
 
-    post "/team" do
+    post "/teams" do
       erb :'app/views/team'
     end 
 
